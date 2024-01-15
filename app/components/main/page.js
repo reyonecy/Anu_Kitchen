@@ -1,7 +1,7 @@
 import React from "react";
 
 const Main = () => {
-  return <div>BIPASNA DULAL</div>;
+  return <div>Reyone</div>;
 };
 
 export default Main;
