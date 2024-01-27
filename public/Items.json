@@ -1,0 +1,28 @@
+{
+    "items":{
+        "elastic":[
+            {
+                "id":1,
+                "title":"Burger",
+                "image":"/images/food1.jpg"
+            },
+            {
+                "id":2,
+                "title":"French fries",
+                "image":"/images/food2.jpg"
+            },
+            {
+                "id":3,
+                "title":"Spagetti",
+                "image":"/images/food3.jpg"
+            },
+            {
+                "id":4,
+                "title":"Crunchy Chicken",
+                "image":"/images/food4.jpg"
+            }
+    
+        ]
+    }
+    
+}
