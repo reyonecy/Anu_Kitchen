@@ -6,15 +6,15 @@ import { FaTiktok } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between bg-[#1E1E1E] h-48 items-center px-14">
+    <footer className="flex justify-between bg-[#1E1E1E] h-48 items-center px-14 border border-inherit">
       <div>
-        <div className="ml-2">
+        <div className="ml-2 font-mada">
           <h2 className=" text-2xl font-bold tracking-widest">
             <span className="ml-10 text-4xl">Anu Kitchen</span> <br />
             and Catering Services
           </h2>
         </div>
-        <div className="my-4 flex justify-evenly">
+        <div className="my-4 flex justify-evenly">  
           <Link
             target="blank"
             href="https://www.instagram.com/anu_kitchen_catering_services/ "
@@ -32,8 +32,8 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="gap-y-2 flex flex-col text-lg">
-        <p>Address: The Peak Campsie 337 Beamish Street</p>
+      <div className="gap-y-2 flex flex-col text-lg font-mada tracking-widest">
+        <p>Address: The Peak Campsie, 337 Beamish Street</p>
         <p>Contact no: 0451490788</p>
         <p>Email: anukitchen@gmail.com</p>
       </div>

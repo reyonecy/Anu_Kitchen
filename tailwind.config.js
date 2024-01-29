@@ -16,6 +16,10 @@ module.exports = {
         'montserrat':['Montserrat'],
         'lato':['Lato'],
         'garamond':['Garamond']
+      },
+      fontFamily:{
+        'mada': ['Mada', 'sans-serif'],
+        'lustira':['Lustria', 'sans-serif']
       }
     },
   },
