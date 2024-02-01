@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar/page";
 import Footer from "./components/footer/page";
-import AboutUs from "./components/pages/aboutus";
+import AboutUs from "./components/pages/aboutus/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,11 +13,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="!scroll-smooth bg-[#1E1E1E]">
       <body className={inter.className}>
         <Navbar />
         {children}
-        <AboutUs/>
+        <AboutUs />
         <Footer />
       </body>
     </html>
