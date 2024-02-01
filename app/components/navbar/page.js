@@ -13,7 +13,6 @@ const Navbar = () => {
       <div className="items-center flex justify-around w-1/2">
         <div className=" flex justify-evenly w-2/3 ">
           <Link href="">HOME</Link>
-          <Link href="">MENU</Link>
           <Link href="">ABOUT US</Link>
           <Link href="">CONTACT US</Link>
           <Link href="">BOOKING</Link>

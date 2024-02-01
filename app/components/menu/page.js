@@ -4,7 +4,7 @@ import Image from "next/image";
 const Menu = () => {
   return (
     <div className="bg-[#1E1E1E]">
-      <p className="text-center text-4xl mt-5 tracking-wider font-montserrat">
+      <p className="text-center text-4xl tracking-wider font-montserrat pt-4 font-bold">
         MENU
       </p>
       <div className="flex mt-7">
